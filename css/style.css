@@ -1,0 +1,53 @@
+body {
+    background-image: url(/img/background.png);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tile {
+    background-color: #cd7f32;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.active {
+    background-image: url(../img/monty.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wrapper {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(6, 100px);
+    grid-template-rows: repeat(6, 100px);
+    margin-left: 29%;
+    margin-top: 5px;
+}
+
+header {
+    text-align: center;
+}
+
+.sidebar {
+    display: grid;
+    gap: 10px;
+    float: right;
+    cursor: pointer;
+    margin-right: 300px;
+    grid-template-columns: repeat(1, 100px);
+    grid-template-rows: repeat(1, 100px);
+}
+
+button {
+    background-color: rgb(27, 209, 27);
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.end-game-button{
+    background-color: rgb(243, 35, 35);
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border-radius: 10px;
+}
